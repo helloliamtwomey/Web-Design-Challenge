@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wind Speed</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    p {
+        text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown" data-toggle="dropdown">Plots</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="maxtemperature.html">Max Temp</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="nav-link active" href="windspeed.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="row content">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+      <h2 class="text-left">Wind Speed</h2>
+      <hr>
+      <img src="./assets/images/plot4.png" alt="Latitude vs Wind Speed" class="main-image" style="width:70%; height:70%">
+      <p>The graph depicts the relationship between latitude and wind speed. The scattered data points do not reveal any clear pattern or trend, indicating a weak or nonexistent correlation between latitude and wind speed. This suggests that latitude alone does not determine wind speed, and other factors such as local weather conditions and pressure gradient also play a role in influencing wind speed.</p>
+    </div>
+  </div>
+</body>
+</html>

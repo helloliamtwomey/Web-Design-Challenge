@@ -1,0 +1,83 @@
+/* Heading Format */
+.navbar-brand {
+  font-family: Arial, sans-serif; 
+  font-size: 25px; /* sets the font size */
+  font-weight: bolder; /* sets the font to bold */
+  background-color: rgb(20, 150, 150); /* sets the background color */
+  padding: 10px;
+  margin-left: 5%;
+}
+
+.navbar-light .navbar-brand {
+  color: white; /* Change the navbar brand text to white */
+}
+
+/* Set the nav bar font to bold. */
+.nav-item {
+  font-weight: bold;
+}
+
+/* Set the background color of the navbar to white */
+.navbar {
+  background-color: white;
+  width: 100%;
+  padding: 0;
+}
+
+/* Right navbar menu */
+.navbar-collapse {
+  position: absolute; /* Move the navigation bar to the right */
+  right: 5%; /* Position the navigation bar 5% from the right */
+  font-size: small; /* Make the text smaller */
+}
+
+/* Heading Format */
+.text-left {
+  text-align: left; /* Set the text alignment to left. */
+  color: rgb(20, 150, 150); /* Set the color to rgb(20, 150, 150). */
+  font-weight: bolder; /* Set the font weight to bolder. */
+}
+
+/* Heading 2 Format */
+h2{
+  /* Set the font to Arial */
+  font-family: Arial, sans-serif;
+  /* Add 30 pixels of space above and below the heading */
+  padding: 30px;
+}
+
+body {
+  background-color:#eee; /* Add a background color to the body */
+  font-size: 1.1em; /* Change the font size to 1.1em*/
+}
+
+.content {
+  width:90%;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 20px auto;
+  padding: 0.1em;
+  }  
+
+.thumbnail {
+  width:50%;
+}
+
+.main-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  max-width: 500px;
+  min-width: 300px;
+  float: left;
+  }
+
+/* Bootstrap Grid - White Content Box */
+.col-sm-12,.col-md-4 {
+  background-color: white;
+}
+
+/* Bootstrap Grid - Comparison Page */
+div.col-sm-12.col-md-12 div.col-lg-6.col-sm-12 img {
+  width: 100%;
+}
