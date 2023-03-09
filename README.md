@@ -1,3 +1,3 @@
 # Web-Design-Challenge
 
-https://helloliamtwomey.github.io/Web-Design-Challenge/
+https://helloliamtwomey.github.io/web-design-challenge/
